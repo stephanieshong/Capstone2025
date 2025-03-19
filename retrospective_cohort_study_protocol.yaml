@@ -1,0 +1,84 @@
+study_type: "Retrospective Cohort Study"
+description: "Study to evaluate the association between benzodiazepine exposure and mortality"
+
+analyses:
+  - part: 1
+    title: "Hospitalized COVID-19 Patients"
+    objective: "Assess the impact of benzodiazepine exposure on survival among hospitalized COVID-19 patients"
+    index_date: "Date of COVID-19 diagnosis or positive test result"
+    inclusion_criteria:
+      - "Patients hospitalized with confirmed COVID-19 (via diagnosis or positive test)"
+      - "Received alprazolam, diazepam, lorazepam, or clonazepam within 30 days prior to the index date"
+    control_group: "Hospitalized COVID-19 patients with no exposure to any benzodiazepines within 30 days prior to the index date"
+    covariates:
+      - "Age"
+      - "Sex"
+      - "Comorbidities"
+      - "COVID-19 severity"
+
+  - part: 2
+    title: "Patients with a History of Cancer"
+    objective: "Evaluate the effect of benzodiazepine exposure on survival in patients with a history of cancer"
+    index_date: "Date of cancer diagnosis (or another relevant date, e.g., start of treatment)"
+    inclusion_criteria:
+      - "Patients with a documented history of cancer"
+      - "Received alprazolam, diazepam, lorazepam, or clonazepam within 30 days prior to the index date"
+    control_group: "Patients with a history of cancer and no exposure to any benzodiazepines within 30 days prior to the index date"
+    covariates:
+      - "Age"
+      - "Sex"
+      - "Comorbidities"
+      - "Cancer stage"
+      - "Cancer type"
+    stratification:
+      - "Pancreatic cancer"
+      - "Brain cancer"
+      - "Lung cancer"
+      - "Breast cancer"
+    stratification_condition: "if sample size permits"
+
+common_design_elements:
+  event_of_interest: "Death"
+  censoring:
+    - "Loss to follow-up"
+    - "Last date of encounter"
+    - "End of study period"
+  time_scale: "Days from the index date"
+  primary_exposure: "Use of alprazolam, diazepam, lorazepam, or clonazepam within 30 days prior to the index date"
+  outcome: "Time to death, with censoring as specified"
+
+analysis_methods:
+  primary_analysis: "Cox proportional hazards model, adjusted for specified covariates"
+  clustering_adjustment: "Mixed-effects Cox model to account for hospital-level clustering"
+  visual_comparison: "Kaplan-Meier curves to compare survival across benzodiazepine types"
+  statistical_tests: "Log-rank test for overall survival differences among exposure groups"
+  sensitivity_analyses:
+    - "Competing risks analysis (e.g., using Fine-Gray models)"
+    - "Restricted mean survival time (RMST) as an alternative survival metric"
+    - "Varying exposure windows (e.g., 15 or 60 days prior to the index date)"
+
+data_management:
+  data_cleaning:
+    - "Standardize date formats and drug codes using OMOP concept sets"
+    - "Validate cancer diagnosis codes and COVID-19 diagnosis/test results"
+    - "Ensure accurate exposure windows (within 30 days prior to the index date)"
+    - "Check follow-up completeness and eliminate implausible values"
+  missing_data_strategy:
+    mar: "Apply multiple imputation using available covariates (e.g., age, demographics)"
+    mnar: "Conduct sensitivity analyses under varying assumptions about missingness mechanisms to assess result robustness"
+
+statistical_considerations:
+  power_analysis:
+    significance_level: 0.05
+    desired_power: 0.80
+    purpose: "Calculate sample size requirements for subgroup analyses"
+  proportional_hazards: "Test using Schoenfeld residuals; consider time-varying covariates if violated"
+  competing_risks: "Account for non-death events (e.g., discharge or recovery) that may preclude the outcome of interest"
+  sensitivity_analysis: "Explore different exposure time windows to ensure findings are robust"
+
+data_quality_control:
+  - "Validate death dates against other clinical events"
+  - "Verify temporal relationships (e.g., no future dates relative to the index date)"
+  - "Confirm drug exposure within the 30-day window prior to the index date"
+  - "Check for concurrent prescriptions or treatment changes that may confound exposure classification"
+  - "Validate medication dosing where data are available"
