@@ -1,4 +1,6 @@
 # Capstone2025
+## Strength and weaknesses of in silo replication of epidemiological studies: Benzodiazepines treatment and patient outcome![image](https://github.com/user-attachments/assets/71d2bee7-6029-47cb-8635-8e7891d91177)
+
 
 ## Abstract
 
