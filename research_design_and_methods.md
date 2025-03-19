@@ -12,4 +12,4 @@ We will employ advanced survival analysis techniques, including Kaplan-Meier cur
 
 ## Retrospective Cohort Study Design
 
-![image](https://github.com/user-attachments/assets/d935a7a4-799a-471b-bf1c-516261397d76)
+
