@@ -1,4 +1,4 @@
-#Abstract
+# Abstract
 
 Benzodiazepines, widely used to manage anxiety, insomnia, and seizures, are frequently prescribed to COVID-19 patients, including those with a history of cancer. However, their impact on mortality and disease progression in these populations remains underexplored. This study aims to evaluate the association between four specific benzodiazepines—alprazolam, diazepam, lorazepam, and clonazepam—and mortality outcomes in COVID-19 patients, focusing on prescriptions administered within 30 days prior to diagnosis. By examining these drugs individually rather than as a uniform class, the research seeks to uncover distinct effects on patient outcomes, particularly in cancer patients.
 
