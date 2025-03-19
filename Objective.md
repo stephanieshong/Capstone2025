@@ -1,3 +1,0 @@
-#Objective 
-
-To evaluate mortality outcomes and disease progression in COVID patients exposed to benzodiazepine prescriptions, including alprazolam (Xanax), diazepam (Valium), lorazepam (Ativan), or clonazepam (Klonopin), which are commonly used to manage anxiety. This study specifically examines benzodiazepine prescriptions administered within 30 days prior to a COVID-19 diagnosis or positive test result, utilizing retrospective electronic health record (EHR) data from patients in N3C data source. The research investigates four widely used benzodiazepines—alprazolam, diazepam, lorazepam, and clonazepam—rather than treating them as a uniform class. This is significant because different benzodiazepines may have distinct effects on patient outcomes
