@@ -1,4 +1,4 @@
-# Capstone2025
+# Capstone 2025
 ## Strength and weaknesses of in silo replication of epidemiological studies: alprazolam, diazepam, lorazepam, and clonazepam benzodiazepines treatment and patient outcome
 
 
