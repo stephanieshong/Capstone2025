@@ -9,3 +9,6 @@ Examine prognosis by assessing whether lorazepam use, unlike alprazolam, correla
 Investigate healthcare utilization by analyzing the association between mortality outcomes and emergency room visits or hospitalizations.
 Characterize mortality rates for specific cancer types—pancreatic, brain, lung, and breast cancer—in relation to benzodiazepine use.
 We will employ advanced survival analysis techniques, including Kaplan-Meier curves and Cox proportional hazards models. These gold-standard methods for time-to-event outcomes will enable a rigorous assessment of how benzodiazepine exposure influences survival, mortality timing, and disease progression in COVID-19 patients, particularly those with a cancer history. This approach ensures reproducibility and a detailed understanding of the study’s findings.
+
+## Retrospective Cohort Study Design
+
