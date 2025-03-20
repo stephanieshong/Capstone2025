@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Timeline Base -->
+  <line x1="50" y1="350" x2="750" y2="350" stroke="black" stroke-width="2" />
+  <polygon points="750,350 740,345 740,355" fill="black" />
+  <text x="760" y="355" font-family="Arial" font-size="14" font-weight="bold">Time</text>
+  
+  <!-- Timeline Markers -->
+  <line x1="150" y1="345" x2="150" y2="355" stroke="black" stroke-width="2" />
+  <text x="150" y="370" font-family="Arial" font-size="12" text-anchor="middle">Day -30</text>
+  
+  <line x1="250" y1="345" x2="250" y2="355" stroke="black" stroke-width="2" />
+  <text x="250" y="370" font-family="Arial" font-size="12" text-anchor="middle">Day 0</text>
+  <text x="250" y="390" font-family="Arial" font-size="12" text-anchor="middle">(COVID-19 Diagnosis)</text>
+  
+  <line x1="400" y1="345" x2="400" y2="355" stroke="black" stroke-width="2" />
+  <text x="400" y="370" font-family="Arial" font-size="12" text-anchor="middle">Follow-up Period</text>
+  
+  <line x1="650" y1="345" x2="650" y2="355" stroke="black" stroke-width="2" />
+  <text x="650" y="370" font-family="Arial" font-size="12" text-anchor="middle">Event/Censoring</text>
+  
+  <!-- Exposure Window -->
+  <rect x="150" y="200" width="100" height="60" fill="#8CB0C0" rx="5" ry="5" />
+  <text x="200" y="230" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Exposure Window</text>
+  <text x="200" y="250" font-family="Arial" font-size="12" text-anchor="middle">(Benzodiazepines)</text>
+  <text x="200" y="270" font-family="Arial" font-size="12" text-anchor="middle">Days [-30, 0]</text>
+  
+  <!-- Arrowhead from Exposure to Diagnosis -->
+  <line x1="200" y1="260" x2="250" y2="300" stroke="#666" stroke-width="2" stroke-dasharray="5,3" />
+  <polygon points="250,300 240,290 245,285" fill="#666" />
+  
+  <!-- Risk Period -->
+  <rect x="250" y="100" width="400" height="60" fill="#F0F0F0" stroke="#333" stroke-width="2" rx="5" ry="5" />
+  <text x="450" y="130" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Outcome Assessment Period</text>
+  <text x="450" y="150" font-family="Arial" font-size="12" text-anchor="middle">(Survival/Mortality)</text>
+  
+  <!-- Specific Groups -->
+  <rect x="260" y="170" width="100" height="40" fill="#FF9999" rx="5" ry="5" />
+  <text x="310" y="195" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle">Alprazolam</text>
+  
+  <rect x="370" y="170" width="100" height="40" fill="#99CC99" rx="5" ry="5" />
+  <text x="420" y="195" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle">Diazepam</text>
+  
+  <rect x="480" y="170" width="100" height="40" fill="#9999FF" rx="5" ry="5" />
+  <text x="530" y="195" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle">Lorazepam</text>
+  
+  <rect x="590" y="170" width="100" height="40" fill="#FFCC99" rx="5" ry="5" />
+  <text x="640" y="195" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle">Clonazepam</text>
+  
+  <!-- Event of Interest -->
+  <polygon points="650,100 665,120 650,140 635,120" fill="#FF5555" />
+  <text x="650" y="90" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Event</text>
+  <text x="650" y="75" font-family="Arial" font-size="12" text-anchor="middle">(Death)</text>
+  
+  <!-- Study Hypothesis -->
+  <rect x="100" y="20" width="600" height="40" fill="#E6F3FF" stroke="#0066CC" stroke-width="1" rx="5" ry="5" />
+  <text x="400" y="45" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">
+    Hypothesis: N-unsubstituted benzodiazepines worsen COVID-19 outcomes
+  </text>
+  
+  <!-- Key information -->
+  <rect x="50" y="200" width="80" height="70" fill="none" stroke="none" />
+  <text x="90" y="210" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Key</text>
+  <circle cx="70" y="230" r="5" fill="#FF5555" />
+  <text x="90" y="235" font-family="Arial" font-size="10" text-anchor="left">Death</text>
+  <rect x="60" y="245" width="20" height="10" fill="#8CB0C0" />
+  <text x="90" y="255" font-family="Arial" font-size="10" text-anchor="left">Exposure</text>
+</svg>
