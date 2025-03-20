@@ -2,10 +2,12 @@
 
 ![image](https://github.com/user-attachments/assets/2050549f-70e6-485e-8544-276bd3f6db1d)
 
-1.Submit IRB Application and Obtain Approval
+
+## Process Steps 
++ Submit IRB Application and Obtain Approval
 Prepare and submit your Institutional Review Board (IRB) application, ensuring all ethical considerations for human subject research are addressed. Obtain approval before proceeding.
 
-2.Submit a Data Use Request (DUR) for Approval by the DAC Committee
++ Submit a Data Use Request (DUR) for Approval by the DAC Committee
 Complete a Data Use Request (DUR) form outlining your data requirements, intended analysis, and data security measures. Secure approval from the Data Access Committee (DAC).
 
 3. Develop Research Methods and Conduct Analysis
