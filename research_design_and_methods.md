@@ -15,7 +15,7 @@ We will employ advanced survival analysis techniques, including Kaplan-Meier cur
 These studies are retrospective, meaning they analyze existing data rather than collecting new data prospectively.
 *	Cohort Identification: Researchers start by identifying a group (cohort) of patients diagnosed with COVID-19, typically confirmed by PCR tests or clinical criteria. This cohort serves as the study population.
 *	Exposure Definition: Benzodiazepine exposure is defined as the use of these medications within a specific time frame, such as 30 days before or during the COVID-19 infection. Exposure might be further categorized by: 
-+	Type: Various classes of benzodiazepines: N-unsubstituted benzodiazepines versus others.
-+	Duration: Short-term vs. chronic use.
+  +	Type: Various classes of benzodiazepines: N-unsubstituted benzodiazepines versus others.
+  +	Duration: Short-term vs. chronic use.
 *	Outcome Measurement: The primary outcome is mortality, often measured as death within a set period after diagnosis (e.g., 30 days) or during hospitalization. Some studies also explore secondary outcomes like ICU admission or the need for mechanical ventilation, but mortality remains the main focus.
 
