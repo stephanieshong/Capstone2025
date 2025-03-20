@@ -1,6 +1,6 @@
 ## Capstone 2025
 ## Title
-### Strengths and weaknesses of in silico replication of epidemiological studies: alprazolam, diazepam, lorazepam, and clonazepam benzodiazepines treatment and patient outcome
+### Strengths and Weaknesses of In Silico Replication of Epidemiological Studies: Evaluating Alprazolam, Diazepam, Lorazepam, and Clonazepam Treatment and Patient Outcomes
 ### Stephanie S. Hong
 
 ## Overview
