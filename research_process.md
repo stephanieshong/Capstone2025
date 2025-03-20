@@ -1,6 +1,7 @@
 # Overall Research Process
 
-![image](https://github.com/user-attachments/assets/2050549f-70e6-485e-8544-276bd3f6db1d)
+![image](https://github.com/user-attachments/assets/6e2d3707-2aec-4498-8648-898877584acc)
+
 
 
 ## Process Steps 
