@@ -17,6 +17,6 @@ These findings could reshape clinical practice by identifying benzodiazepines as
 * Outcome Measurement: The primary outcome is mortality, often measured as death within a set period after diagnosis (e.g., 30 days) or during hospitalization. Some studies also explore secondary outcomes like ICU admission or the need for mechanical ventilation, but mortality remains the main focus.
 
 ### statistical techniques used to account for factors that might influence the results:
-•	Cox Proportional Hazards Models: These estimate the hazard ratio (HR), which reflects the risk of death over-time in benzodiazepine users compared to non-users.
-•	Logistic Regression: This calculates the odds ratio (OR), showing the likelihood of mortality associated with benzodiazepine use.
-•	Propensity Score Matching: This method balances the characteristics (e.g., age, comorbidities) of benzodiazepine users and non-users to reduce bias.
+*	Cox Proportional Hazards Models: These estimate the hazard ratio (HR), which reflects the risk of death over-time in benzodiazepine users compared to non-users.
+*	Logistic Regression: This calculates the odds ratio (OR), showing the likelihood of mortality associated with benzodiazepine use.
+*	Propensity Score Matching: This method balances the characteristics (e.g., age, comorbidities) of benzodiazepine users and non-users to reduce bias.
