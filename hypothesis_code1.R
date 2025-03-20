@@ -1,8 +1,11 @@
-## ---------------------------------
+## -------------------------------------------------------------------------------
 ## Stephanie S. Hong
-## Capstone 2025, March 19, 2025
-## Hypothesis 1 : Patients who were acutely (within past 30 days of infection) exposed to N-unsubstituted benzodiazepines, which activate GPR68, would have worsening of acute lung injury caused by COVID-19.  
-## ----------------------------------
+## Capstone, March 19, 2025
+## Title: Strengths and weaknesses of in silo replication of epidemiological studies:  Benzodiazepines treatment and patient outcome
+## Hypothesis 1:  Patients who were acutely (within past 30 days of infection) exposed to N-unsubstituted benzodiazepines, which activate GPR68, would have worsening of acute lung injury caused by COVID-19.  
+## benzodiazepines drugs of interest: alprazolam (Xanax), diazepam (Valium), lorazepam (Ativan), or clonazepam (Klonopin). 
+## --------------------------------------------------------------------------------
+
 # R Code for Survival Analysis of Benzodiazepine Exposure in COVID-19 Patients
 # Retrospective Cohort Study - Analysis Part 1
 
